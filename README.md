@@ -8,6 +8,9 @@ A Python-based tool to fetch research papers from PubMed using the Biopython lib
 - Include additional details in the output file with the `--detailed` option.
 
 To run the program run following command:
+
 poetry build
+
 to test the dev:
+
 poetry run get-papers-list "diabetes therapy" -f results.csv -d
