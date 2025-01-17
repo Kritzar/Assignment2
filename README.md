@@ -1,4 +1,3 @@
-# Assignment
 # PubMed Papers Fetcher
 
 A Python-based tool to fetch research papers from PubMed using the Biopython library. This tool allows you to search for papers using a query, export the results to a CSV file, and include detailed information about the search results.
