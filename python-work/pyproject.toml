@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "paperparser"
+version = "0.1.0"
+description = "A project using Biopython for Entrez searches"
+authors = ["kri"]
+readme = "README.md"
+packages = [{ include = "work", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+biopython = "^1.81"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+
+get-papers-list = "work.main:main"
